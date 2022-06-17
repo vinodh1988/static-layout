@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: rgb(210, 208, 208);
 }
 #header{
     background-color: #FE6847;
@@ -59,4 +60,39 @@ body{
     height: 90%;
     width: 30px;
     margin-left: 20px;
+}
+
+
+#slide-show {
+    height: 280px;
+    width: 100%;
+    background-color:  white;
+    margin-top:10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#image-area{
+    width:80%;
+    background-color: rgb(81, 149, 176);
+    height:98%;
+    margin-left:10%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#left-area,#right-area{
+    width: 50%;
+    box-sizing: border-box;
+    float:left;
+    padding: 30px;
+}
+
+#right-area img{
+    height: 100%;
+    width: 90%;
+}
+
+#right-area{
+    padding-left: 50px;
 }
